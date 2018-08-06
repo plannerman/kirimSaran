@@ -6,7 +6,10 @@ Situs ini bertujuan untuk membagikan pesan anonym kepada semua orang sehingga te
 
 # Penggunaan
 Masuk ke config.php dan setting database yang digunakan.
-Untuk database di sini menggunakan nama table 'pesan' dengan kolom 'id', 'dari', 'isi', 'time'
+Untuk database di sini menggunakan nama table 'pesan' dengan kolom 'id', 'dari', 'untuk', 'isi', 'time'
+
+# Database
+CREATE TABLE pesan ('id INT NOT NULL AUTO_INCREMENT' , 'dari VARCHAR(30) NOT NULL' , 'untuk VARCHAR(30) NOT NULL', 'isi TEXT NOT NULL', 'time TEXT NOT NULL', PRIMARY KEY(id));  
 
 # Saran dan kritik
 Silahkan kirimkan saran dan kritik melalui akun saya atau Instagram @ccnkss 
