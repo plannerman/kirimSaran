@@ -12,6 +12,7 @@ Untuk database di sini menggunakan nama table 'pesan' dengan kolom 'id', 'dari',
 ```
 CREATE TABLE pesan ('id INT NOT NULL AUTO_INCREMENT' , 'dari VARCHAR(30) NOT NULL' , 'untuk VARCHAR(30) NOT NULL', 'isi TEXT NOT NULL', 'time TEXT NOT NULL', PRIMARY KEY(id));
 ```
+*Untuk time bisa disesuaikan sendiri, dalam kode ini menggunakan teks karena waktu ketika user mensubmit pesan direcord oleh PHP date() masuk ke dalam variabel sehingga menjadi string biasa*
 
 # Saran dan kritik
 Silahkan kirimkan saran dan kritik melalui akun saya atau Instagram @ccnkss 
