@@ -93,7 +93,7 @@
                       " <?php echo $d['isi']; ?> "
         	<p>
         			<div class="identitas">
-        				<?php echo $d['time']; ?>
+        				<?php echo $d['time']; ?> WIB
                             	</div>
 	    	</div>
 		<?php } ?>
