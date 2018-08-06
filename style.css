@@ -1,0 +1,197 @@
+body {
+    background-color: #fff;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background: #69BDD2;
+    padding: 0;
+    position: fixed;
+}
+
+.judul {
+    text-align: center;
+    position: fixed;
+    margin: 0;
+    padding: 8px 20px;
+    display: inline-block;
+    color: #fff;
+    font-size: 23px;
+    font-family: fantasy;
+    
+}
+
+ul {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+ul li{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+ul li:hover {
+    background: #474F57;
+    font-size: 20px;
+    -webkit-transition: font-size 0.5s;
+    -moz-transition: font-size 0.5s;
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.toogle{
+    width: 100%;
+    padding: 10px 20px;
+    background: #579DAE;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 25px;
+    text-align: right;
+    
+}
+    
+.aktif{
+        display: block;
+        -webkit-transition: transform 0.5s ease-in-out
+    }
+    
+
+
+.form {
+    background: #474F57;
+    padding: 63px 17px 17px 17px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.teks {
+    background:#fff; 
+    color:#222a2a; 
+    border: none; 
+    padding: 5px; 
+    width: 300; 
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.pesan {
+    background:#fff; 
+    color:#222a2a; 
+    border: none;
+    border-radius: 6px;
+    padding: 5px; 
+    width: 300;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.button {
+    background: #69BDD2;
+    padding: 7px;
+    width: 100px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 110px;
+    
+}
+
+.konten {
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+
+.isi {
+
+    padding: 20px;
+    font-family: Book Antiqua;
+    border-left: 3px solid #69BDD2;
+    background: #f7f7f7;
+
+}
+
+.isi .identitas {
+    margin: 0px 0 15 0;
+    padding: 0px;
+    color:#69BDD2;
+}
+
+.pages {
+    text-align: center;
+    padding: 15px;
+    font-family: Book Antiqua;
+    color: #579DAE;
+}
+
+.pages a{
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #579DAE;
+    color: #fff;
+}
+
+a.active{
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #f7f7f7;
+    color: #579DAE;
+}
+
+a.active:hover{
+    background: #69BDD2;
+    font-size : 22px;
+    color: #fff;
+    -webkit-transition: font-size 0.2s;
+}
+
+.pages a:hover{
+    background: #69BDD2;
+    font-size : 22px;
+    -webkit-transition: font-size 0.2s;
+}
+
+#footer{
+    background: #474F57;
+    padding: 20px;
+    margin: 30px 0 0 0;
+    color: #fff;
+    font-family: fantasy;
+    position: sticky;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+
+#footer2{
+    background: #474F57;
+    padding: 20px;
+    margin: 30px 0 0 0;
+    color: #fff;
+    font-family: fantasy;
+    position: fixed;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+
+.about {
+    background: #fefefe;
+    padding: 63px 17px 17px 17px;
+    margin: 0 auto;
+    text-align: center;
+    color: #332828;
+}
